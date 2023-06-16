@@ -1,0 +1,16 @@
+# ninja log v5
+431	592	7085180015541833	cpp.exe	e78301cbae3fdfcc
+3	393	7074823704312807	CMakeFiles/cpp.dir/acwing/796.cpp.obj	aa21e2c6f140e72b
+3	474	7015361838749226	CMakeFiles/cpp.dir/luogu/P2524_.cpp.obj	59ccabede438d6f0
+3	295	7014998884007939	CMakeFiles/cpp.dir/luogu/test.cpp.obj	32a0708da8889754
+3	364	7017062690908295	CMakeFiles/cpp.dir/luogu/P2669.cpp.obj	b28875b69553473b
+1	1078	7085153244030553	CMakeFiles/cpp.dir/exam/EP1.cpp.obj	b0329729cd17a0a5
+2	618	7023775136501646	CMakeFiles/cpp.dir/acwing/795.cpp.obj	ca888b8e54906cf2
+3	388	7074842240880745	CMakeFiles/cpp.dir/acwing/797.cpp.obj	3facf48456e6db5c
+3	504	7040334413185126	CMakeFiles/cpp.dir/acwing/shiyan.cpp.obj	6ebc6d3ed4ecde7d
+0	410	7075611564352067	CMakeFiles/cpp.dir/exam/ep1.cpp.obj	763ef5e5df152bfa
+1	447	7085156180834581	CMakeFiles/cpp.dir/exam/EP2.cpp.obj	6305962a56d48c71
+1	647	7085157915873844	CMakeFiles/cpp.dir/exam/EP3.cpp.obj	95bdfbab75174b5e
+1	622	7085159989712269	CMakeFiles/cpp.dir/exam/EP4.cpp.obj	2c3749f5d39f369b
+3	454	7085168503149612	CMakeFiles/cpp.dir/exam/work1.cpp.obj	ea343a3026ca3153
+3	430	7085180013988468	CMakeFiles/cpp.dir/exam/work2.cpp.obj	40edb40ebe76019d
