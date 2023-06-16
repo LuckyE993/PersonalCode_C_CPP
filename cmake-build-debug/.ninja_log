@@ -1,6 +1,6 @@
 # ninja log v5
-431	592	7085180015541833	cpp.exe	e78301cbae3fdfcc
 3	393	7074823704312807	CMakeFiles/cpp.dir/acwing/796.cpp.obj	aa21e2c6f140e72b
+431	592	7085180015541833	cpp.exe	e78301cbae3fdfcc
 3	474	7015361838749226	CMakeFiles/cpp.dir/luogu/P2524_.cpp.obj	59ccabede438d6f0
 3	295	7014998884007939	CMakeFiles/cpp.dir/luogu/test.cpp.obj	32a0708da8889754
 3	364	7017062690908295	CMakeFiles/cpp.dir/luogu/P2669.cpp.obj	b28875b69553473b
@@ -14,3 +14,18 @@
 1	622	7085159989712269	CMakeFiles/cpp.dir/exam/EP4.cpp.obj	2c3749f5d39f369b
 3	454	7085168503149612	CMakeFiles/cpp.dir/exam/work1.cpp.obj	ea343a3026ca3153
 3	430	7085180013988468	CMakeFiles/cpp.dir/exam/work2.cpp.obj	40edb40ebe76019d
+1	251	7086207175436932	build.ninja	75b234188cc06779
+0	738	7086207183128914	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
+741	1143	7086207187151570	cpp.exe	423b3fdd14140d4d
+4	420	7086210336155325	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
+421	558	7086210337511138	cpp.exe	423b3fdd14140d4d
+4	440	7086212892419612	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
+441	602	7086212894003644	cpp.exe	423b3fdd14140d4d
+3	410	7086217682293578	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
+411	545	7086217683621141	cpp.exe	423b3fdd14140d4d
+3	406	7086217984874070	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
+407	561	7086217986389550	cpp.exe	423b3fdd14140d4d
+3	404	7086222080725085	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
+405	532	7086222081985068	cpp.exe	423b3fdd14140d4d
+3	390	7086222245869921	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
+391	517	7086222247100554	cpp.exe	423b3fdd14140d4d
