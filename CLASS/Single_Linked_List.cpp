@@ -1,71 +1,143 @@
-//
-// Created by Lucky_E on 2023-06-16.
-//
 #include <iostream>
 using namespace std;
 
 struct Node
 {
-    int data;
+    int value;
     Node* next;
 };
 
-void insert(Node** head,int data)
+Node* CreateNode(int value)
 {
-    Node* new_node = new Node;
-    new_node->data = data;
-    new_node->next = nullptr;
+    Node* newNode = new Node;
+    newNode->value = value;
+    newNode->next = nullptr;
+    return newNode;
+}
 
-    if(*head==nullptr)
+void InsertNode(Node** head,int value)
+{
+    Node* newNode = CreateNode(value);
+    if(*head == nullptr)
     {
-        *head = new_node;
+        *head = newNode;
     }
     else
     {
-        Node* current = *head;
-        while(current->next != nullptr)
+        Node* temp = *head;
+        while(temp->next != nullptr)
         {
-            current = current->next;
+            temp = temp->next;
         }
-        current->next = new_node;
+        temp->next = newNode;
     }
 }
 
-void insertAtPosition(Node** head,int data,int position)
+void DeleteNode(Node** head,int data)
 {
-    cout << "insertAtPosition >= 0"<<endl;
-    Node* new_node = new Node;
-    new_node->data = data;
-    new_node->next = nullptr;
+    Node* temp = *head;
+    Node* prev = nullptr;
 
-    if(position==0)
+    if(temp!=nullptr &&temp->value==data)
     {
-        new_node->next = *head;
-        *head = nullptr;
+        *head = temp->next;
+        delete temp;
+        return;
+    }
+
+    while(temp!=nullptr&&temp->value!=data)
+    {
+        prev = temp;
+        temp = temp->next;
+    }
+
+    if(temp == nullptr)
+    {
+        cout << "None node"<<endl;
+        return ;
+    }
+
+    prev->next = temp->next;
+    delete temp;
+
+}
+
+void PrintList(Node* head)
+{
+    Node* temp = head;
+    while(temp!=nullptr)
+    {
+        cout<< temp->value<<endl;
+        temp = temp->next;
+    }
+
+}
+void FindPosition(Node* head,int data)
+{
+    int position = 0;
+    Node* temp = head;
+
+    if(temp!=nullptr&&temp->value==data)
+    {
+        cout<<"The "<<data<<" is "<<position<<" in this list."<<endl;
+        return;
+    }
+
+    while(temp!=nullptr&&temp->value!=data)
+    {
+        temp=temp->next;
+        position++;
+        if(temp->value==data)
+        {
+            cout<<"The "<<data<<" is "<<position<<" in this list."<<endl;
+            return;
+        }
+        if(temp->next == nullptr)
+        {
+            cout<<"Not found."<<endl;
+            return;
+        }
+    }
+    if(temp == nullptr)
+    {
+        cout<<"The list is empty"<<endl;
+        return;
+    }
+
+}
+void isEmpty(Node* head)
+{
+    if(head==nullptr)
+    {
+        cout<<"The list is empty."<<endl;
     }
     else
     {
-        Node* current = *head;
-        for(int i=0;i<position-1;i++)
-        {
-            if(current == nullptr)
-            {
-                cout<<"Invalid position."<<endl;
-                return;
-            }
-            else
-            {
-                current = current->next;
-            }
-        }
-
-        new_node->next = current;
-        current->next = new_node;
+        cout<<"The list is not empty"<<endl;
     }
 }
 
 int main()
 {
+    Node* Single_List = nullptr;
+    isEmpty(Single_List);
 
+    InsertNode(&Single_List,22);
+    InsertNode(&Single_List,24);
+    InsertNode(&Single_List,267);
+
+    cout<<"After insert some nodes."<<endl;
+    isEmpty(Single_List);
+
+    PrintList(Single_List);
+    cout<<"Delete Node Value 24"<<endl;
+
+    DeleteNode(&Single_List,24);
+
+    PrintList(Single_List);
+
+    FindPosition(Single_List,22);
+
+    FindPosition(Single_List,24);
     return 0;
 }
