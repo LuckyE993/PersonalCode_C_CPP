@@ -1,5 +1,5 @@
 # ninja log v5
-1841	1983	7092088473975597	cpp.exe	f2e4deddf8ba400c
+1054	1250	7092105647256419	cpp.exe	f2e4deddf8ba400c
 3	393	7074823704312807	CMakeFiles/cpp.dir/acwing/796.cpp.obj	aa21e2c6f140e72b
 3	474	7015361838749226	CMakeFiles/cpp.dir/luogu/P2524_.cpp.obj	59ccabede438d6f0
 3	295	7014998884007939	CMakeFiles/cpp.dir/luogu/test.cpp.obj	32a0708da8889754
@@ -14,15 +14,21 @@
 1	622	7085159989712269	CMakeFiles/cpp.dir/exam/EP4.cpp.obj	2c3749f5d39f369b
 3	454	7085168503149612	CMakeFiles/cpp.dir/exam/work1.cpp.obj	ea343a3026ca3153
 3	430	7085180013988468	CMakeFiles/cpp.dir/exam/work2.cpp.obj	40edb40ebe76019d
-1	250	7092090166974844	build.ninja	75b234188cc06779
+1	250	7092250045073546	build.ninja	75b234188cc06779
 3	390	7086222245869921	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
 3	449	7090339691996228	CMakeFiles/cpp.dir/CLASS/course_design.cpp.obj	b42d469499a71e50
 3	401	7090427976160086	CMakeFiles/cpp.dir/CLASS/Double_Linked_List.cpp.obj	e30a82c0274efd47
 4	416	7090397886269366	CMakeFiles/cpp.dir/CLASS/Single_Linked_List.cpp.obj	ffb11c49aeb14acc
-4	1840	7092088472576881	CMakeFiles/cpp.dir/CLASS/coursedesign_wu.cpp.obj	302a3853c58a201f
-3	820	7092091381075494	CMakeFiles/cpp.dir/CLASS/coursedesign_wu.cpp.obj	302a3853c58a201f
-822	962	7092091382459760	cpp.exe	f2e4deddf8ba400c
-4	882	7092099734479291	CMakeFiles/cpp.dir/CLASS/coursedesign_wu.cpp.obj	302a3853c58a201f
-883	1077	7092099736300882	cpp.exe	f2e4deddf8ba400c
 3	1052	7092105645380982	CMakeFiles/cpp.dir/CLASS/coursedesign_wu.cpp.obj	302a3853c58a201f
-1054	1250	7092105647256419	cpp.exe	f2e4deddf8ba400c
+0	743	7092262042060859	CMakeFiles/cpp.dir/CLASS/Stack.cpp.obj	2af906359ff8508
+747	1085	7092262045430926	cpp.exe	8ff248b35a755ab2
+3	419	7092262787832740	CMakeFiles/cpp.dir/CLASS/Stack.cpp.obj	2af906359ff8508
+420	545	7092262789051820	cpp.exe	8ff248b35a755ab2
+3	405	7092263464859478	CMakeFiles/cpp.dir/CLASS/Stack.cpp.obj	2af906359ff8508
+406	535	7092263466125761	cpp.exe	8ff248b35a755ab2
+3	398	7092266442795092	CMakeFiles/cpp.dir/CLASS/Stack.cpp.obj	2af906359ff8508
+399	535	7092266444134273	cpp.exe	8ff248b35a755ab2
+3	417	7092266988014235	CMakeFiles/cpp.dir/CLASS/Stack.cpp.obj	2af906359ff8508
+418	546	7092266989260501	cpp.exe	8ff248b35a755ab2
+3	428	7092267532033856	CMakeFiles/cpp.dir/CLASS/Stack.cpp.obj	2af906359ff8508
+429	560	7092267533318457	cpp.exe	8ff248b35a755ab2
