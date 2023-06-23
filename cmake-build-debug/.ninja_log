@@ -1,6 +1,6 @@
 # ninja log v5
+1841	1983	7092088473975597	cpp.exe	f2e4deddf8ba400c
 3	393	7074823704312807	CMakeFiles/cpp.dir/acwing/796.cpp.obj	aa21e2c6f140e72b
-417	553	7090397887607486	cpp.exe	17b5cdc08c3cbad9
 3	474	7015361838749226	CMakeFiles/cpp.dir/luogu/P2524_.cpp.obj	59ccabede438d6f0
 3	295	7014998884007939	CMakeFiles/cpp.dir/luogu/test.cpp.obj	32a0708da8889754
 3	364	7017062690908295	CMakeFiles/cpp.dir/luogu/P2669.cpp.obj	b28875b69553473b
@@ -14,13 +14,15 @@
 1	622	7085159989712269	CMakeFiles/cpp.dir/exam/EP4.cpp.obj	2c3749f5d39f369b
 3	454	7085168503149612	CMakeFiles/cpp.dir/exam/work1.cpp.obj	ea343a3026ca3153
 3	430	7085180013988468	CMakeFiles/cpp.dir/exam/work2.cpp.obj	40edb40ebe76019d
-1	251	7090398851355458	build.ninja	75b234188cc06779
+1	250	7092090166974844	build.ninja	75b234188cc06779
 3	390	7086222245869921	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
 3	449	7090339691996228	CMakeFiles/cpp.dir/CLASS/course_design.cpp.obj	b42d469499a71e50
-4	416	7090397886269366	CMakeFiles/cpp.dir/CLASS/Single_Linked_List.cpp.obj	ffb11c49aeb14acc
-1	395	7090399304982677	CMakeFiles/cpp.dir/CLASS/Double_Linked_List.cpp.obj	e30a82c0274efd47
-407	535	7090399306342496	cpp.exe	739eeca14a5ea731
-3	501	7090426471617780	CMakeFiles/cpp.dir/CLASS/Double_Linked_List.cpp.obj	e30a82c0274efd47
-502	656	7090426473150609	cpp.exe	739eeca14a5ea731
 3	401	7090427976160086	CMakeFiles/cpp.dir/CLASS/Double_Linked_List.cpp.obj	e30a82c0274efd47
-401	533	7090427977439229	cpp.exe	739eeca14a5ea731
+4	416	7090397886269366	CMakeFiles/cpp.dir/CLASS/Single_Linked_List.cpp.obj	ffb11c49aeb14acc
+4	1840	7092088472576881	CMakeFiles/cpp.dir/CLASS/coursedesign_wu.cpp.obj	302a3853c58a201f
+3	820	7092091381075494	CMakeFiles/cpp.dir/CLASS/coursedesign_wu.cpp.obj	302a3853c58a201f
+822	962	7092091382459760	cpp.exe	f2e4deddf8ba400c
+4	882	7092099734479291	CMakeFiles/cpp.dir/CLASS/coursedesign_wu.cpp.obj	302a3853c58a201f
+883	1077	7092099736300882	cpp.exe	f2e4deddf8ba400c
+3	1052	7092105645380982	CMakeFiles/cpp.dir/CLASS/coursedesign_wu.cpp.obj	302a3853c58a201f
+1054	1250	7092105647256419	cpp.exe	f2e4deddf8ba400c
