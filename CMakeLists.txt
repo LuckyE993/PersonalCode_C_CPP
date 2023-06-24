@@ -4,5 +4,5 @@ project(cpp)
 set(CMAKE_CXX_STANDARD 17)
 
 #add_executable(cpp CLASS/course_design.cpp )
-add_executable(cpp  CLASS/Stack.cpp)
+add_executable(cpp CLASS/Queue.cpp)
 #add_executable(cpp C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp )
