@@ -40,7 +40,27 @@ void Precedence_traversal(TreeNode* root) {
     Precedence_traversal(root->left);
     Precedence_traversal(root->right);
 }
+// 中序遍历（递归）
+void Inorder_traversal(TreeNode* root) {
+    if (root == nullptr) {
+        return;
+    }
 
+    Inorder_traversal(root->left);
+    cout << root->data << " ";
+    Inorder_traversal(root->right);
+}
+
+// 后序遍历（递归）
+void Postorder_traversal(TreeNode* root) {
+    if (root == nullptr) {
+        return;
+    }
+
+    Postorder_traversal(root->left);
+    Postorder_traversal(root->right);
+    cout << root->data << " ";
+}
 // 层次遍历（非递归）层次遍历，利用队列的特性实现。从根节点开始，将每个节点依次入队，然后出队并访问，同时将其左右子节点入队，直到队列为空。
 void Hierarchical_traversal(TreeNode* root) {
     if (root == nullptr) {

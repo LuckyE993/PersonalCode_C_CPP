@@ -55,12 +55,6 @@ build CMakeFiles/cpp.dir/CLASS/Hash.cpp.obj: CXX_COMPILER__cpp_Debug C$:/Users/i
   OBJECT_DIR = CMakeFiles\cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp.dir\CLASS
 
-build CMakeFiles/cpp.dir/CLASS/coursedesign_wu_2.cpp.obj: CXX_COMPILER__cpp_Debug C$:/Users/izumi/OneDrive/C/C++/cpp/CLASS/coursedesign_wu_2.cpp || cmake_object_order_depends_target_cpp
-  DEP_FILE = CMakeFiles\cpp.dir\CLASS\coursedesign_wu_2.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\cpp.dir\CLASS
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp
@@ -69,7 +63,7 @@ build CMakeFiles/cpp.dir/CLASS/coursedesign_wu_2.cpp.obj: CXX_COMPILER__cpp_Debu
 #############################################
 # Link the executable cpp.exe
 
-build cpp.exe: CXX_EXECUTABLE_LINKER__cpp_Debug CMakeFiles/cpp.dir/CLASS/Hash.cpp.obj CMakeFiles/cpp.dir/CLASS/coursedesign_wu_2.cpp.obj
+build cpp.exe: CXX_EXECUTABLE_LINKER__cpp_Debug CMakeFiles/cpp.dir/CLASS/Hash.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp.dir
