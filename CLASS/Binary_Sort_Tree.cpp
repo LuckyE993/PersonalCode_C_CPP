@@ -27,11 +27,11 @@ TreeNode* Insert(TreeNode* root, int value)
         return CreateTreeNode(value);
     }
 
-    if(root->data < value)
+    if(root->data > value)
     {
         root->left = Insert(root->left, value);
     }
-    else if(root->data > value)
+    else if(root->data < value)
     {
         root->right = Insert(root->right, value);
     }
@@ -45,11 +45,11 @@ TreeNode* SearchNode(TreeNode* root, int value)
         return root;
     }
 
-    if(root->data < value)
+    if(root->data > value)
     {
         return SearchNode(root->right, value);
     }
-    else if(root->data > value)
+    else if(root->data < value)
     {
         return SearchNode(root->left, value);
     }
@@ -70,7 +70,7 @@ TreeNode* DeleteNode(TreeNode* root,int value)
     {
         root->left = DeleteNode(root,value);
     }
-    else//找到要删除的节点
+    else
     {
         if(root->left == nullptr)
         {
@@ -86,15 +86,28 @@ TreeNode* DeleteNode(TreeNode* root,int value)
         }
 
         TreeNode* minRight = root->right;
-        while(minRight -> left!= nullptr)
+        TreeNode* minRightParent = nullptr;
+
+        while (minRight->left != nullptr)
         {
+            minRightParent = minRight;
             minRight = minRight->left;
         }
 
-        root->data = minRight -> data;
-        root->right = DeleteNode(root->right,minRight->data);
+        if (minRightParent != nullptr)
+        {
+            minRightParent->left = minRight->right;
+        }
+        else
+        {
+            root->right = minRight->right;
+        }
+
+        root->data = minRight->data;
+        delete minRight;
 
     }
+    return root;
 }
 
 void InorderTraversal(TreeNode* root)
@@ -113,14 +126,14 @@ void InorderTraversal(TreeNode* root)
 int main()
 {
     TreeNode* root = nullptr;
-    cout << "啊实打实的" << endl;
-    cout<<"asdas撒旦大苏打撒旦"<<endl;
-    cout<<"sadas十大地方"<<endl;
+
+    cout<<"请输入二叉排序树的元素，以-1结束"<<endl;
+
     int data;
     while(true)
     {
         cin>>data;
-        if(data!=-1)
+        if(data==-1)
         {
             break;
         }
@@ -131,19 +144,19 @@ int main()
     InorderTraversal(root);
     cout<<endl;
 
-    cout<<"输入要查询的节点: "<<endl;
+    cout<<"请输入要搜索的节点"<<endl;
     cin>>data;
     TreeNode* searchresult = SearchNode(root,data);
     if(searchresult == nullptr)
     {
-        cout<<"节点"<<data<<"不在二叉排序树中"<<endl;
+        cout<<"节点"<<data<<"搜索失败"<<endl;
     }
     else
     {
-        cout<<"节点"<<data<<"在二叉排序树中"<<endl;
+        cout<<"节点"<<data<<"搜索成功"<<endl;
     }
 
-    cout<<"输入要删除的节点值："<<endl;
+    cout<<"请输入要删除的节点"<<endl;
     cin>>data;
     root = DeleteNode(root,data);
 
