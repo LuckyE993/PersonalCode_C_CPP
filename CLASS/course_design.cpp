@@ -3,7 +3,33 @@
 //
 #include <iostream>
 #include <string>
+#include <regex> // Added for regular expressions
+
 using namespace std;
+
+// Function to validate phone number using regular expression
+bool isValidPhoneNumber(const string& phoneNumber) {
+    // Regular expression pattern for phone number validation
+    regex pattern("^\\d{11}$");
+    return regex_match(phoneNumber, pattern);
+}
+
+// Function to validate email using regular expression
+bool isValidEmail(const string& email) {
+    // Regular expression pattern for email validation
+    regex pattern("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$");
+    return regex_match(email, pattern);
+}
+
+
+/**
+ *@brief  定义通讯录节点结构
+ *
+ * @param[in] none
+ *
+ * @return none
+ */
+
 
 // 定义通讯录节点结构
 struct ContactNode {
@@ -15,8 +41,19 @@ struct ContactNode {
     ContactNode* next;
 };
 
-// 添加联系人
-void addContact(ContactNode*& head, const string& name, const string& phoneNumber, const string& qqNumber, const string& email) {
+/**
+ * @brief 添加联系人
+ *
+ * @param[in] head 头节点指针
+ * @param[in] name 联系人姓名
+ * @param[in] phoneNumber 联系人手机号
+ * @param[in] qqNumber 联系人QQ号
+ * @param[in] email 联系人邮箱
+ *
+ * @return none
+ */
+void addContact(ContactNode*& head, const string& name, const string& phoneNumber, const string& qqNumber,
+                const string& email) {
     ContactNode* newNode = new ContactNode;
     newNode->name = name;
     newNode->phoneNumber = phoneNumber;
@@ -37,8 +74,20 @@ void addContact(ContactNode*& head, const string& name, const string& phoneNumbe
     cout << "联系人已添加：" << name << endl;
 }
 
-// 插入联系人
-void insertContact(ContactNode*& head, const string& name, const string& phoneNumber, const string& qqNumber, const string& email, int position) {
+/**
+ * @brief 插入联系人
+ *
+ * @param[in] head 头节点指针
+ * @param[in] name 联系人姓名
+ * @param[in] phoneNumber 联系人手机号
+ * @param[in] qqNumber 联系人QQ号
+ * @param[in] email 联系人邮箱
+ * @param[in] position 插入位置
+ *
+ * @return none
+ */
+void insertContact(ContactNode*& head, const string& name, const string& phoneNumber, const string& qqNumber,
+                   const string& email, int position) {
     if (position <= 0) {
         cout << "无效的插入位置" << endl;
         return;
@@ -68,7 +117,14 @@ void insertContact(ContactNode*& head, const string& name, const string& phoneNu
     cout << "联系人已插入：" << name << endl;
 }
 
-// 删除联系人
+/**
+ * @brief 删除联系人
+ *
+ * @param[in] head 头节点指针
+ * @param[in] name 联系人姓名
+ *
+ * @return none
+ */
 void deleteContact(ContactNode*& head, const string& name) {
     if (head == nullptr) {
         cout << "通讯录为空" << endl;
@@ -93,8 +149,15 @@ void deleteContact(ContactNode*& head, const string& name) {
     cout << "未找到联系人：" << name << endl;
 }
 
-// 查询联系人
-void searchContact(ContactNode* head, const string& name) {
+/**
+ * @brief 查询联系人
+ *
+ * @param[in] head 头节点指针
+ * @param[in] name 联系人姓名
+ *
+ * @return none
+ */
+void searchContact(ContactNode* head, const string& searchQuery) {
     if (head == nullptr) {
         cout << "通讯录为空" << endl;
         return;
@@ -102,7 +165,10 @@ void searchContact(ContactNode* head, const string& name) {
 
     ContactNode* current = head;
     do {
-        if (current->name == name) {
+        if (current->name == searchQuery ||
+            current->phoneNumber == searchQuery ||
+            current->qqNumber == searchQuery ||
+            current->email == searchQuery) {
             cout << "姓名：" << current->name << endl;
             cout << "手机号：" << current->phoneNumber << endl;
             cout << "QQ 号：" << current->qqNumber << endl;
@@ -112,10 +178,17 @@ void searchContact(ContactNode* head, const string& name) {
         current = current->next;
     } while (current != head);
 
-    cout << "未找到联系人：" << name << endl;
+    cout << "未找到匹配的联系人：" << searchQuery << endl;
 }
 
-// 统计联系人数量
+
+/**
+ * @brief 统计联系人数量
+ *
+ * @param[in] head 头节点指针
+ *
+ * @return 联系人数量
+ */
 int countContacts(ContactNode* head) {
     int count = 0;
     ContactNode* current = head;
@@ -131,14 +204,107 @@ int countContacts(ContactNode* head) {
     return count;
 }
 
+void printMenu() {
+    cout << "========================" << endl;
+    cout << "通讯录管理系统" << endl;
+    cout << "1. 添加联系人" << endl;
+    cout << "2. 插入联系人" << endl;
+    cout << "3. 删除联系人" << endl;
+    cout << "4. 查询联系人" << endl;
+    cout << "5. 统计联系人数量" << endl;
+    cout << "0. 退出" << endl;
+    cout << "========================" << endl;
+    cout << "请输入操作选项：";
+}
+
 int main() {
     ContactNode* head = nullptr;
-    addContact(head, "John", "123456789", "12345", "john@example.com");
-    addContact(head, "Jane", "987654321", "54321", "jane@example.com");
-    insertContact(head, "Alice", "111111111", "11111", "alice@example.com", 2);
-    searchContact(head, "John");
-    deleteContact(head, "Jane");
-    cout << "联系人数量：" << countContacts(head) << endl;
+    int choice;
+
+    do {
+        printMenu();
+        cin >> choice;
+
+        switch (choice) {
+            case 1: {
+                string name, phoneNumber, qqNumber, email;
+                cout << "请输入联系人姓名：";
+                cin >> name;
+
+                cout << "请输入联系人手机号：";
+                cin >> phoneNumber;
+                while (!isValidPhoneNumber(phoneNumber)) {
+                    cout << "无效的手机号格式,请重新输入。" << endl;
+                    cin >> phoneNumber;
+                }
+
+                cout << "请输入联系人QQ号：";
+                cin >> qqNumber;
+
+                cout << "请输入联系人邮箱：";
+                cin >> email;
+                while(!isValidEmail(email)) {
+                    cout << "无效的邮箱格式,请重新输入。" << endl;
+                    cin >> email;
+                }
+
+                addContact(head, name, phoneNumber, qqNumber, email);
+                break;
+            }
+            case 2: {
+                string name, phoneNumber, qqNumber, email;
+                int position;
+                cout << "请输入联系人姓名：";
+                cin >> name;
+                cout << "请输入联系人手机号：";
+                cin >> phoneNumber;
+                cout << "请输入联系人QQ号：";
+                cin >> qqNumber;
+                cout << "请输入联系人邮箱：";
+                cin >> email;
+
+                if (!isValidPhoneNumber(phoneNumber)) {
+                    cout << "无效的手机号格式" << endl;
+                    break;
+                }
+
+                if (!isValidEmail(email)) {
+                    cout << "无效的邮箱格式" << endl;
+                    break;
+                }
+
+                cout << "请输入插入位置：";
+                cin >> position;
+                insertContact(head, name, phoneNumber, qqNumber, email, position);
+                break;
+            }
+            case 3: {
+                string name;
+                cout << "请输入要删除的联系人姓名：";
+                cin >> name;
+                deleteContact(head, name);
+                break;
+            }
+            case 4: {
+                string name;
+                cout << "请输入要查询的联系人信息（姓名、手机号、QQ号、邮箱）：";
+                cin >> name;
+                searchContact(head, name);
+                break;
+            }
+            case 5: {
+                cout << "联系人数量：" << countContacts(head) << endl;
+                break;
+            }
+            case 0: {
+                cout << "已退出通讯录管理系统" << endl;
+                break;
+            }
+            default:
+                cout << "无效的选项" << endl;
+                break;
+        }
+    } while (choice != 0);
 
     return 0;
 }
