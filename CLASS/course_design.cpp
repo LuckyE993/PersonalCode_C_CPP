@@ -3,20 +3,30 @@
 //
 #include <iostream>
 #include <string>
-#include <regex> // Added for regular expressions
+#include <regex>
 
 using namespace std;
 
-// Function to validate phone number using regular expression
+/**
+ *@brief  手机号数据验证
+ *
+ * @param[in] phoneNumber 手机号
+ *
+ * @return none
+ */
 bool isValidPhoneNumber(const string& phoneNumber) {
-    // Regular expression pattern for phone number validation
     regex pattern("^\\d{11}$");
     return regex_match(phoneNumber, pattern);
 }
 
-// Function to validate email using regular expression
+/**
+ *@brief  邮箱数据验证
+ *
+ * @param[in] email 邮箱地址
+ *
+ * @return none
+ */
 bool isValidEmail(const string& email) {
-    // Regular expression pattern for email validation
     regex pattern("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$");
     return regex_match(email, pattern);
 }
@@ -29,9 +39,6 @@ bool isValidEmail(const string& email) {
  *
  * @return none
  */
-
-
-// 定义通讯录节点结构
 struct ContactNode {
     string name;
     string phoneNumber;
