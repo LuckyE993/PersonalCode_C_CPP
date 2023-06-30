@@ -1,10 +1,10 @@
 # ninja log v5
-637	777	7097451250013416	cpp.exe	dac214cf4931a3d5
+582	730	7097452320704561	cpp.exe	2f10493e1ec006
 3	393	7074823704312807	CMakeFiles/cpp.dir/acwing/796.cpp.obj	aa21e2c6f140e72b
 3	474	7015361838749226	CMakeFiles/cpp.dir/luogu/P2524_.cpp.obj	59ccabede438d6f0
 3	295	7014998884007939	CMakeFiles/cpp.dir/luogu/test.cpp.obj	32a0708da8889754
 3	364	7017062690908295	CMakeFiles/cpp.dir/luogu/P2669.cpp.obj	b28875b69553473b
-2	627	7097450712725002	CMakeFiles/cpp.dir/CLASS/Binary_Tree.cpp.obj	87f931aa46666b8
+1	580	7097452319229361	CMakeFiles/cpp.dir/CLASS/Binary_Tree.cpp.obj	87f931aa46666b8
 1	1078	7085153244030553	CMakeFiles/cpp.dir/exam/EP1.cpp.obj	b0329729cd17a0a5
 2	618	7023775136501646	CMakeFiles/cpp.dir/acwing/795.cpp.obj	ca888b8e54906cf2
 3	388	7074842240880745	CMakeFiles/cpp.dir/acwing/797.cpp.obj	3facf48456e6db5c
@@ -16,7 +16,7 @@
 3	454	7085168503149612	CMakeFiles/cpp.dir/exam/work1.cpp.obj	ea343a3026ca3153
 3	431	7097439614262049	CMakeFiles/cpp.dir/CLASS/Merged_List.cpp.obj	424b0a07bc6f9093
 3	430	7085180013988468	CMakeFiles/cpp.dir/exam/work2.cpp.obj	40edb40ebe76019d
-1	250	7097452292477025	build.ninja	75b234188cc06779
+1	250	7098306954471880	build.ninja	75b234188cc06779
 3	390	7086222245869921	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
 4	4366	7097259273512155	CMakeFiles/cpp.dir/CLASS/course_design.cpp.obj	b42d469499a71e50
 3	401	7090427976160086	CMakeFiles/cpp.dir/CLASS/Double_Linked_List.cpp.obj	e30a82c0274efd47
@@ -29,5 +29,7 @@
 13	595	7094665935689081	CMakeFiles/cpp.dir/CLASS/coursedesign_wu_2.cpp.obj	58297d638c953f66
 4	510	7094047696105779	CMakeFiles/cpp.dir/CLASS/coursedesign_wu_1.cpp.obj	bac6a537d066baf6
 4	445	7095401986923842	CMakeFiles/cpp.dir/CLASS/Binary_Sort_Tree.cpp.obj	adf720d9cc070358
-1	580	7097452319229361	CMakeFiles/cpp.dir/CLASS/Binary_Tree.cpp.obj	87f931aa46666b8
-582	730	7097452320704561	cpp.exe	2f10493e1ec006
+0	926	7098306967556887	CMakeFiles/cpp.dir/CLASS/coursedesign_liu.cpp.obj	6705dc6b017afb15
+931	1176	7098306970017411	cpp.exe	ab112102ba4ccf3
+3	804	7098307289689019	CMakeFiles/cpp.dir/CLASS/coursedesign_liu.cpp.obj	6705dc6b017afb15
+805	967	7098307291290743	cpp.exe	ab112102ba4ccf3
