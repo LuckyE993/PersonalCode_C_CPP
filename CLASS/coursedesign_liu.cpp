@@ -1,6 +1,3 @@
-//
-// Created by Lucky_E on 2023-06-30.
-//
 #include <iostream>
 #include <list>
 #include <vector>
@@ -11,17 +8,29 @@ using namespace std;
 // 有向图类
 class DirectedGraph {
 public:
-    DirectedGraph(int vertices) : vertex_count(vertices)//别名
+    /**
+     * @brief 构造函数
+     *
+     * @param[in] vertices 顶点数量
+     */
+    DirectedGraph(int vertices) : vertex_count(vertices)
     {
         adjacency_list.resize(vertices);
     }
 
-    // 添加一条边
+    /**
+     * @brief 添加一条有向边
+     *
+     * @param[in] source 源顶点
+     * @param[in] destination 目标顶点
+     */
     void addEdge(int source, int destination) {
         adjacency_list[source].push_back(destination);
     }
 
-    // 打印邻接表
+    /**
+     * @brief 打印有向图的邻接表
+     */
     void printGraph() const {
         for (int i = 0; i < vertex_count; ++i) {
             cout << "Vertex " << i << " :";
@@ -32,7 +41,9 @@ public:
         }
     }
 
-    // 寻找所有简单路径
+    /**
+     * @brief 寻找有向图中所有简单路径
+     */
     void findAllSimplePaths() {
         for (int i = 0; i < vertex_count; ++i) {
             for (int j = 0; j < vertex_count; ++j) {
@@ -49,7 +60,14 @@ private:
     int vertex_count;
     vector<list<int>> adjacency_list;
 
-    // 递归查找简单路径的工具方法
+    /**
+     * @brief 递归查找简单路径的工具方法
+     *
+     * @param[in] start 起始顶点
+     * @param[in] end 终止顶点
+     * @param[in] visited 记录顶点是否被访问过的向量
+     * @param[in] path 记录当前路径的链表
+     */
     void findSimplePathsUtil(int start, int end, vector<bool>& visited, list<int>& path) {
         visited[start] = true;
         path.push_back(start);
@@ -69,7 +87,11 @@ private:
         path.pop_back();
     }
 
-    // 打印路径
+    /**
+     * @brief 打印路径
+     *
+     * @param[in] path 要打印的路径链表
+     */
     void printPath(const list<int>& path) const {
         for (const auto& vertex : path) {
             cout << vertex << " ";
