@@ -12,7 +12,7 @@ using namespace std;
  *
  * @param[in] phoneNumber 手机号
  *
- * @return none
+ * @return 是否合法
  */
 bool isValidPhoneNumber(const string& phoneNumber) {
     regex pattern("^\\d{11}$");
@@ -24,7 +24,7 @@ bool isValidPhoneNumber(const string& phoneNumber) {
  *
  * @param[in] email 邮箱地址
  *
- * @return none
+ * @return 是否合法
  */
 bool isValidEmail(const string& email) {
     regex pattern("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$");
