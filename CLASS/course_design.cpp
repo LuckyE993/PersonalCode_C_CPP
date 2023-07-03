@@ -8,11 +8,7 @@
 using namespace std;
 
 /**
- *@brief  手机号数据验证
- *
- * @param[in] phoneNumber 手机号
- *
- * @return 是否合法
+ * 手机号数据验证
  */
 bool isValidPhoneNumber(const string& phoneNumber) {
     regex pattern("^\\d{11}$");
@@ -20,11 +16,7 @@ bool isValidPhoneNumber(const string& phoneNumber) {
 }
 
 /**
- *@brief  邮箱数据验证
- *
- * @param[in] email 邮箱地址
- *
- * @return 是否合法
+  邮箱数据验证
  */
 bool isValidEmail(const string& email) {
     regex pattern("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$");
@@ -33,11 +25,7 @@ bool isValidEmail(const string& email) {
 
 
 /**
- *@brief  定义通讯录节点结构
- *
- * @param[in] none
- *
- * @return none
+ * 定义通讯录节点结构
  */
 struct ContactNode {
     string name;
@@ -49,15 +37,7 @@ struct ContactNode {
 };
 
 /**
- * @brief 添加联系人
- *
- * @param[in] head 头节点指针
- * @param[in] name 联系人姓名
- * @param[in] phoneNumber 联系人手机号
- * @param[in] qqNumber 联系人QQ号
- * @param[in] email 联系人邮箱
- *
- * @return none
+ *  添加联系人
  */
 void addContact(ContactNode*& head, const string& name, const string& phoneNumber, const string& qqNumber,
                 const string& email) {
@@ -82,16 +62,7 @@ void addContact(ContactNode*& head, const string& name, const string& phoneNumbe
 }
 
 /**
- * @brief 插入联系人
- *
- * @param[in] head 头节点指针
- * @param[in] name 联系人姓名
- * @param[in] phoneNumber 联系人手机号
- * @param[in] qqNumber 联系人QQ号
- * @param[in] email 联系人邮箱
- * @param[in] position 插入位置
- *
- * @return none
+ * 插入联系人
  */
 void insertContact(ContactNode*& head, const string& name, const string& phoneNumber, const string& qqNumber,
                    const string& email, int position) {
@@ -125,12 +96,7 @@ void insertContact(ContactNode*& head, const string& name, const string& phoneNu
 }
 
 /**
- * @brief 删除联系人
- *
- * @param[in] head 头节点指针
- * @param[in] name 联系人姓名
- *
- * @return none
+ * 删除联系人
  */
 void deleteContact(ContactNode*& head, const string& name) {
     if (head == nullptr) {
@@ -157,12 +123,7 @@ void deleteContact(ContactNode*& head, const string& name) {
 }
 
 /**
- * @brief 查询联系人
- *
- * @param[in] head 头节点指针
- * @param[in] name 联系人姓名
- *
- * @return none
+ *  查询联系人
  */
 void searchContact(ContactNode* head, const string& searchQuery) {
     if (head == nullptr) {
@@ -190,11 +151,7 @@ void searchContact(ContactNode* head, const string& searchQuery) {
 
 
 /**
- * @brief 统计联系人数量
- *
- * @param[in] head 头节点指针
- *
- * @return 联系人数量
+ *统计联系人数量
  */
 int countContacts(ContactNode* head) {
     int count = 0;
