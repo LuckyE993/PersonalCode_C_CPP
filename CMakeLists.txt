@@ -3,5 +3,5 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(cpp acwing/799.cpp)
+add_executable(cpp acwing/800.cpp acwing/800.cpp)
 
