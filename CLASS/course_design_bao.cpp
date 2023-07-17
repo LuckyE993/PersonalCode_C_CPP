@@ -69,8 +69,10 @@ Polynomial addPolynomials(const Polynomial& poly1, const Polynomial& poly2) {
     result.terms = new Term[maxSize];
 
     int i = 0, j = 0, k = 0;
-    while (i < poly1.numTerms && j < poly2.numTerms) {
-        if (poly1.terms[i].exponent > poly2.terms[j].exponent) {
+    while (i < poly1.numTerms && j < poly2.numTerms)
+    {
+        if (poly1.terms[i].exponent > poly2.terms[j].exponent)
+        {
             result.terms[k] = poly1.terms[i];
             i++;
         } else if (poly1.terms[i].exponent < poly2.terms[j].exponent) {

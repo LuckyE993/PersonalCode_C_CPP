@@ -3,5 +3,5 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(cpp CLASS/course_design.cpp)
+add_executable(cpp acwing/799.cpp)
 
