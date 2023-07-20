@@ -1,6 +1,6 @@
 # ninja log v5
 3	393	7074823704312807	CMakeFiles/cpp.dir/acwing/796.cpp.obj	aa21e2c6f140e72b
-588	727	7115228834046682	cpp.exe	4b3b79041b6ca2cb
+517	651	7115232742418890	cpp.exe	c9d802245940d4e7
 3	474	7015361838749226	CMakeFiles/cpp.dir/luogu/P2524_.cpp.obj	59ccabede438d6f0
 3	295	7014998884007939	CMakeFiles/cpp.dir/luogu/test.cpp.obj	32a0708da8889754
 3	364	7017062690908295	CMakeFiles/cpp.dir/luogu/P2669.cpp.obj	b28875b69553473b
@@ -16,7 +16,7 @@
 3	431	7097439614262049	CMakeFiles/cpp.dir/CLASS/Merged_List.cpp.obj	424b0a07bc6f9093
 3	454	7085168503149612	CMakeFiles/cpp.dir/exam/work1.cpp.obj	ea343a3026ca3153
 3	430	7085180013988468	CMakeFiles/cpp.dir/exam/work2.cpp.obj	40edb40ebe76019d
-2	249	7115229864584997	build.ninja	75b234188cc06779
+2	249	7115366234028099	build.ninja	75b234188cc06779
 3	390	7086222245869921	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
 4	4484	7100664515161013	CMakeFiles/cpp.dir/CLASS/course_design.cpp.obj	b42d469499a71e50
 4	416	7090397886269366	CMakeFiles/cpp.dir/CLASS/Single_Linked_List.cpp.obj	ffb11c49aeb14acc
@@ -34,11 +34,8 @@
 4	903	7099644588756831	CMakeFiles/cpp.dir/CLASS/coursedesign_ren.cpp.obj	aca905c83ae80dc1
 3	421	7113757856935435	CMakeFiles/cpp.dir/acwing/801.cpp.obj	6d0f193b1fa455f3
 4	587	7115228832681227	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_queue.cpp.obj	ecab48e6d216a97f
-0	900	7115232286144428	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_stack.cpp.obj	e807ec26f08c5d4b
-902	1213	7115232287518501	cpp.exe	c9d802245940d4e7
-3	508	7115232381879732	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_stack.cpp.obj	e807ec26f08c5d4b
-509	713	7115232383165400	cpp.exe	c9d802245940d4e7
-3	494	7115232479568747	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_stack.cpp.obj	e807ec26f08c5d4b
-495	625	7115232480844501	cpp.exe	c9d802245940d4e7
 3	517	7115232741117522	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_stack.cpp.obj	e807ec26f08c5d4b
-517	651	7115232742418890	cpp.exe	c9d802245940d4e7
+0	423	7115366276639650	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_list.cpp.obj	bbce8233b864ba6a
+425	596	7115366278335774	cpp.exe	a6798f424764a59a
+3	474	7115370079604321	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_list.cpp.obj	bbce8233b864ba6a
+475	610	7115370080923554	cpp.exe	a6798f424764a59a
