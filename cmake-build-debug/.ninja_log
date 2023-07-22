@@ -1,6 +1,6 @@
 # ninja log v5
 3	393	7074823704312807	CMakeFiles/cpp.dir/acwing/796.cpp.obj	aa21e2c6f140e72b
-611	758	7117250399194055	cpp.exe	494e0312be0c4d3c
+449	595	7117271790012718	cpp.exe	be92655677ec0113
 3	474	7015361838749226	CMakeFiles/cpp.dir/luogu/P2524_.cpp.obj	59ccabede438d6f0
 3	295	7014998884007939	CMakeFiles/cpp.dir/luogu/test.cpp.obj	32a0708da8889754
 3	364	7017062690908295	CMakeFiles/cpp.dir/luogu/P2669.cpp.obj	b28875b69553473b
@@ -8,6 +8,7 @@
 1	1078	7085153244030553	CMakeFiles/cpp.dir/exam/EP1.cpp.obj	b0329729cd17a0a5
 2	618	7023775136501646	CMakeFiles/cpp.dir/acwing/795.cpp.obj	ca888b8e54906cf2
 3	388	7074842240880745	CMakeFiles/cpp.dir/acwing/797.cpp.obj	3facf48456e6db5c
+0	623	7117254748956668	CMakeFiles/cpp.dir/acwing/843.cpp.obj	215d020e39cbdb7
 3	504	7040334413185126	CMakeFiles/cpp.dir/acwing/shiyan.cpp.obj	6ebc6d3ed4ecde7d
 0	410	7075611564352067	CMakeFiles/cpp.dir/exam/ep1.cpp.obj	763ef5e5df152bfa
 1	447	7085156180834581	CMakeFiles/cpp.dir/exam/EP2.cpp.obj	6305962a56d48c71
@@ -16,7 +17,7 @@
 3	431	7097439614262049	CMakeFiles/cpp.dir/CLASS/Merged_List.cpp.obj	424b0a07bc6f9093
 3	454	7085168503149612	CMakeFiles/cpp.dir/exam/work1.cpp.obj	ea343a3026ca3153
 3	430	7085180013988468	CMakeFiles/cpp.dir/exam/work2.cpp.obj	40edb40ebe76019d
-2	249	7117254667863493	build.ninja	75b234188cc06779
+2	249	7117275200015476	build.ninja	75b234188cc06779
 3	390	7086222245869921	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
 4	4484	7100664515161013	CMakeFiles/cpp.dir/CLASS/course_design.cpp.obj	b42d469499a71e50
 0	666	7116363631608195	CMakeFiles/cpp.dir/acwing/842.cpp.obj	fdb5266ba6ebde40
@@ -29,6 +30,7 @@
 1	1026	7106735716737216	CMakeFiles/cpp.dir/CLASS/course_design_bao.cpp.obj	c0d8b53d545d18e2
 4	719	7112665587990817	CMakeFiles/cpp.dir/acwing/799.cpp.obj	5b853e8b44456ba6
 1	516	7106736575519683	CMakeFiles/cpp.dir/CLASS/coursedesign_wu_2.cpp.obj	58297d638c953f66
+4	448	7117271788597574	CMakeFiles/cpp.dir/acwing/5053.cpp.obj	cab8f6d761b7be9
 4	510	7094047696105779	CMakeFiles/cpp.dir/CLASS/coursedesign_wu_1.cpp.obj	bac6a537d066baf6
 4	445	7095401986923842	CMakeFiles/cpp.dir/CLASS/Binary_Sort_Tree.cpp.obj	adf720d9cc070358
 3	1826	7098371795445710	CMakeFiles/cpp.dir/CLASS/coursedesign_liu.cpp.obj	6705dc6b017afb15
@@ -38,5 +40,3 @@
 3	517	7115232741117522	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_stack.cpp.obj	e807ec26f08c5d4b
 3	474	7115370079604321	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_list.cpp.obj	bbce8233b864ba6a
 4	610	7117250397745087	CMakeFiles/cpp.dir/acwing/842_STL.cpp.obj	87b834070b17ad13
-0	623	7117254748956668	CMakeFiles/cpp.dir/acwing/843.cpp.obj	215d020e39cbdb7
-635	794	7117254750634051	cpp.exe	55e3cbdfda3ddf44
