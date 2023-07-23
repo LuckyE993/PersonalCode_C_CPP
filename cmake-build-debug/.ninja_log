@@ -1,6 +1,6 @@
 # ninja log v5
 3	393	7074823704312807	CMakeFiles/cpp.dir/acwing/796.cpp.obj	aa21e2c6f140e72b
-449	595	7117271790012718	cpp.exe	be92655677ec0113
+481	656	7117280494746701	cpp.exe	e5a313a301e044ea
 3	474	7015361838749226	CMakeFiles/cpp.dir/luogu/P2524_.cpp.obj	59ccabede438d6f0
 3	295	7014998884007939	CMakeFiles/cpp.dir/luogu/test.cpp.obj	32a0708da8889754
 3	364	7017062690908295	CMakeFiles/cpp.dir/luogu/P2669.cpp.obj	b28875b69553473b
@@ -13,11 +13,12 @@
 0	410	7075611564352067	CMakeFiles/cpp.dir/exam/ep1.cpp.obj	763ef5e5df152bfa
 1	447	7085156180834581	CMakeFiles/cpp.dir/exam/EP2.cpp.obj	6305962a56d48c71
 1	635	7097451248628028	CMakeFiles/cpp.dir/exam/EP3.cpp.obj	95bdfbab75174b5e
+4	479	7117280493038639	CMakeFiles/cpp.dir/acwing/5054.cpp.obj	12236aa1e2e7e02f
 1	622	7085159989712269	CMakeFiles/cpp.dir/exam/EP4.cpp.obj	2c3749f5d39f369b
 3	431	7097439614262049	CMakeFiles/cpp.dir/CLASS/Merged_List.cpp.obj	424b0a07bc6f9093
 3	454	7085168503149612	CMakeFiles/cpp.dir/exam/work1.cpp.obj	ea343a3026ca3153
 3	430	7085180013988468	CMakeFiles/cpp.dir/exam/work2.cpp.obj	40edb40ebe76019d
-2	249	7117275200015476	build.ninja	75b234188cc06779
+2	249	7117814162555483	build.ninja	75b234188cc06779
 3	390	7086222245869921	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
 4	4484	7100664515161013	CMakeFiles/cpp.dir/CLASS/course_design.cpp.obj	b42d469499a71e50
 0	666	7116363631608195	CMakeFiles/cpp.dir/acwing/842.cpp.obj	fdb5266ba6ebde40
@@ -40,3 +41,9 @@
 3	517	7115232741117522	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_stack.cpp.obj	e807ec26f08c5d4b
 3	474	7115370079604321	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_list.cpp.obj	bbce8233b864ba6a
 4	610	7117250397745087	CMakeFiles/cpp.dir/acwing/842_STL.cpp.obj	87b834070b17ad13
+1	619	7117826685906344	CMakeFiles/cpp.dir/acwing/843.cpp.obj	215d020e39cbdb7
+621	807	7117826687774680	cpp.exe	55e3cbdfda3ddf44
+6	636	7117826807847861	CMakeFiles/cpp.dir/acwing/843.cpp.obj	215d020e39cbdb7
+637	814	7117826809570214	cpp.exe	55e3cbdfda3ddf44
+3	608	7117828392982598	CMakeFiles/cpp.dir/acwing/843.cpp.obj	215d020e39cbdb7
+609	774	7117828394592463	cpp.exe	55e3cbdfda3ddf44
