@@ -1,6 +1,6 @@
 # ninja log v5
 3	393	7074823704312807	CMakeFiles/cpp.dir/acwing/796.cpp.obj	aa21e2c6f140e72b
-481	656	7117280494746701	cpp.exe	e5a313a301e044ea
+609	774	7117828394592463	cpp.exe	55e3cbdfda3ddf44
 3	474	7015361838749226	CMakeFiles/cpp.dir/luogu/P2524_.cpp.obj	59ccabede438d6f0
 3	295	7014998884007939	CMakeFiles/cpp.dir/luogu/test.cpp.obj	32a0708da8889754
 3	364	7017062690908295	CMakeFiles/cpp.dir/luogu/P2669.cpp.obj	b28875b69553473b
@@ -8,7 +8,7 @@
 1	1078	7085153244030553	CMakeFiles/cpp.dir/exam/EP1.cpp.obj	b0329729cd17a0a5
 2	618	7023775136501646	CMakeFiles/cpp.dir/acwing/795.cpp.obj	ca888b8e54906cf2
 3	388	7074842240880745	CMakeFiles/cpp.dir/acwing/797.cpp.obj	3facf48456e6db5c
-0	623	7117254748956668	CMakeFiles/cpp.dir/acwing/843.cpp.obj	215d020e39cbdb7
+3	608	7117828392982598	CMakeFiles/cpp.dir/acwing/843.cpp.obj	215d020e39cbdb7
 3	504	7040334413185126	CMakeFiles/cpp.dir/acwing/shiyan.cpp.obj	6ebc6d3ed4ecde7d
 0	410	7075611564352067	CMakeFiles/cpp.dir/exam/ep1.cpp.obj	763ef5e5df152bfa
 1	447	7085156180834581	CMakeFiles/cpp.dir/exam/EP2.cpp.obj	6305962a56d48c71
@@ -18,7 +18,7 @@
 3	431	7097439614262049	CMakeFiles/cpp.dir/CLASS/Merged_List.cpp.obj	424b0a07bc6f9093
 3	454	7085168503149612	CMakeFiles/cpp.dir/exam/work1.cpp.obj	ea343a3026ca3153
 3	430	7085180013988468	CMakeFiles/cpp.dir/exam/work2.cpp.obj	40edb40ebe76019d
-2	249	7117814162555483	build.ninja	75b234188cc06779
+2	249	7117844847330398	build.ninja	75b234188cc06779
 3	390	7086222245869921	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp.obj	327416da12c68679
 4	4484	7100664515161013	CMakeFiles/cpp.dir/CLASS/course_design.cpp.obj	b42d469499a71e50
 0	666	7116363631608195	CMakeFiles/cpp.dir/acwing/842.cpp.obj	fdb5266ba6ebde40
@@ -41,9 +41,17 @@
 3	517	7115232741117522	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_stack.cpp.obj	e807ec26f08c5d4b
 3	474	7115370079604321	CMakeFiles/cpp.dir/C_Primer_Plus_Learn/STL/stl_learn_list.cpp.obj	bbce8233b864ba6a
 4	610	7117250397745087	CMakeFiles/cpp.dir/acwing/842_STL.cpp.obj	87b834070b17ad13
-1	619	7117826685906344	CMakeFiles/cpp.dir/acwing/843.cpp.obj	215d020e39cbdb7
-621	807	7117826687774680	cpp.exe	55e3cbdfda3ddf44
-6	636	7117826807847861	CMakeFiles/cpp.dir/acwing/843.cpp.obj	215d020e39cbdb7
-637	814	7117826809570214	cpp.exe	55e3cbdfda3ddf44
-3	608	7117828392982598	CMakeFiles/cpp.dir/acwing/843.cpp.obj	215d020e39cbdb7
-609	774	7117828394592463	cpp.exe	55e3cbdfda3ddf44
+0	1015	7117861513701555	CMakeFiles/cpp.dir/acwing/844.cpp.obj	2746d3d85f3979f4
+1027	1206	7117861515599989	cpp.exe	5d671132515c0dc5
+3	1404	7117861864827800	CMakeFiles/cpp.dir/acwing/844.cpp.obj	2746d3d85f3979f4
+1405	1625	7117861867002473	cpp.exe	5d671132515c0dc5
+4	863	7117862093410384	CMakeFiles/cpp.dir/acwing/844.cpp.obj	2746d3d85f3979f4
+864	1021	7117862094958020	cpp.exe	5d671132515c0dc5
+3	719	7117865689478952	CMakeFiles/cpp.dir/acwing/844.cpp.obj	2746d3d85f3979f4
+720	877	7117865691036281	cpp.exe	5d671132515c0dc5
+3	722	7117865839917950	CMakeFiles/cpp.dir/acwing/844.cpp.obj	2746d3d85f3979f4
+723	877	7117865841437449	cpp.exe	5d671132515c0dc5
+3	707	7117867081174701	CMakeFiles/cpp.dir/acwing/844.cpp.obj	2746d3d85f3979f4
+708	884	7117867082903952	cpp.exe	5d671132515c0dc5
+3	730	7117867820448717	CMakeFiles/cpp.dir/acwing/844.cpp.obj	2746d3d85f3979f4
+731	892	7117867822023919	cpp.exe	5d671132515c0dc5
