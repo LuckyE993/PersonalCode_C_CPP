@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="cpp" targetName="cpp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="Algorithm KMP">
+      <change beforePath="$PROJECT_DIR$/刷题/CLASS/KMP.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/CLASS/MergeSort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/CLASS/QuickSort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/C_Primer_Plus_Learn/STL/stl_learn_list.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/C_Primer_Plus_Learn/STL/stl_learn_queue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/C_Primer_Plus_Learn/STL/stl_learn_stack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/Double_Pointer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/1508.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/2816.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/5053.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/795.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/796.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/797.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/799.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/800.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/801.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/823.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/842.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/842_STL.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/843.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/844.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/n3956.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/acwing/shiyan.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/exam/EP1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/exam/EP2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/exam/EP3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/exam/EP4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/exam/work1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/exam/work2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/luogu/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/luogu/P1563.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/luogu/P1830.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/luogu/P2006.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/luogu/P2084.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/luogu/P2669.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/luogu/P3717.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/luogu/P4327.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/刷题/luogu/test.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LuckyE993&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6cba6dc0-2323-4f7b-8019-bae0c82a8310" />
+        <option name="url" value="https://github.com/LuckyE993/PersonalCode_C_CPP.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="2.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2b19q19m9ryGB0ugsweqFiv3GtY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/File/PersonalCode_C_CPP/Algorithm/CMakeLists.txt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="CMake Application.cpp">
+    <configuration name="cpp" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="cpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.cpp" />
+      <item itemvalue="CMake Debug.cpp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake Debug.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="" />
+      <created>1705371904913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705371904913</updated>
+      <workItem from="1705371906004" duration="556000" />
+      <workItem from="1705492938761" duration="7165000" />
+      <workItem from="1706178345051" duration="389000" />
+      <workItem from="1706178743784" duration="750000" />
+      <workItem from="1706239793120" duration="2673000" />
+      <workItem from="1706885535572" duration="4108000" />
+      <workItem from="1707117191666" duration="2478000" />
+    </task>
+    <task id="LOCAL-00001" summary="Normal Update">
+      <option name="closed" value="true" />
+      <created>1706178587651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706178587651</updated>
+    </task>
+    <task id="LOCAL-00002" summary="QuickSort.cpp">
+      <option name="closed" value="true" />
+      <created>1706240396544</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706240396544</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Index Update">
+      <option name="closed" value="true" />
+      <created>1706241635581</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706241635581</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Algorithm KMP">
+      <option name="closed" value="true" />
+      <created>1706886006868</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706886006868</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="240116&#10;&#10;240116" />
+    <MESSAGE value="Normal Update" />
+    <MESSAGE value="QuickSort.cpp" />
+    <MESSAGE value="Index Update" />
+    <MESSAGE value="Algorithm KMP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithm KMP" />
+  </component>
+</project>

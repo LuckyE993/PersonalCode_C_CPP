@@ -1,0 +1,4 @@
+# ninja log v5
+1252	1394	7287582342999460	cpp.exe	eb0cd0f94e1373a3
+0	190	7287583181962825	build.ninja	8d961dcf1f231c68
+2	1252	7287582341615033	CMakeFiles/cpp.dir/CLASS/TrieTree.cpp.obj	df3a30c248f8c54b
