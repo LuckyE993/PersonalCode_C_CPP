@@ -20,47 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="Algorithm KMP">
-      <change beforePath="$PROJECT_DIR$/刷题/CLASS/KMP.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/CLASS/MergeSort.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/CLASS/QuickSort.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/C_Primer_Plus_Learn/10Array_and_Pointer/Pointer_Operations.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/C_Primer_Plus_Learn/STL/stl_learn_list.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/C_Primer_Plus_Learn/STL/stl_learn_queue.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/C_Primer_Plus_Learn/STL/stl_learn_stack.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/Double_Pointer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/1508.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/2816.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/5053.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/795.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/796.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/797.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/799.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/800.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/801.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/823.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/842.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/842_STL.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/843.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/844.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/n3956.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/acwing/shiyan.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/exam/EP1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/exam/EP2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/exam/EP3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/exam/EP4.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/exam/work1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/exam/work2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/luogu/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/luogu/P1563.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/luogu/P1830.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/luogu/P2006.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/luogu/P2084.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/luogu/P2669.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/luogu/P3717.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/luogu/P4327.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/刷题/luogu/test.cpp" beforeDir="false" />
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="Algorithm TrieTree">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/CLASS/TrieTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CLASS/TrieTree.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +114,7 @@
       <workItem from="1706178743784" duration="750000" />
       <workItem from="1706239793120" duration="2673000" />
       <workItem from="1706885535572" duration="4108000" />
-      <workItem from="1707117191666" duration="2478000" />
+      <workItem from="1707117191666" duration="3888000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -186,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706886006868</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Index Update">
+      <option name="closed" value="true" />
+      <created>1707121161855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707121161855</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Algorithm TrieTree">
+      <option name="closed" value="true" />
+      <created>1707121215113</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707121215113</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,8 +203,9 @@
     <MESSAGE value="240116&#10;&#10;240116" />
     <MESSAGE value="Normal Update" />
     <MESSAGE value="QuickSort.cpp" />
-    <MESSAGE value="Index Update" />
     <MESSAGE value="Algorithm KMP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithm KMP" />
+    <MESSAGE value="Index Update" />
+    <MESSAGE value="Algorithm TrieTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithm TrieTree" />
   </component>
 </project>
