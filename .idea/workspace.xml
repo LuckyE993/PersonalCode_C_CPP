@@ -20,9 +20,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="Algorithm TrieTree">
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="Algorithm TrieTree cpp ver.">
+      <change afterPath="$PROJECT_DIR$/Algorithm/CLASS/DisjointSet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/143.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/789.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/CLASS/TrieTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CLASS/TrieTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fc7c551489a8bfa87287.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.cmake/api/v1/reply/index-2024-02-04T13-58-38-0228.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.cmake/api/v1/reply/target-cpp-Debug-17b1e9eee7ababaf6593.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +98,11 @@
     <configuration name="cpp" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="cpp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -114,7 +132,8 @@
       <workItem from="1706178743784" duration="750000" />
       <workItem from="1706239793120" duration="2673000" />
       <workItem from="1706885535572" duration="4108000" />
-      <workItem from="1707117191666" duration="3888000" />
+      <workItem from="1707117191666" duration="7436000" />
+      <workItem from="1708074287456" duration="1189000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -164,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707121215113</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Algorithm TrieTree cpp ver.">
+      <option name="closed" value="true" />
+      <created>1707122497607</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707122497607</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +233,7 @@
     <MESSAGE value="Algorithm KMP" />
     <MESSAGE value="Index Update" />
     <MESSAGE value="Algorithm TrieTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithm TrieTree" />
+    <MESSAGE value="Algorithm TrieTree cpp ver." />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithm TrieTree cpp ver." />
   </component>
 </project>
