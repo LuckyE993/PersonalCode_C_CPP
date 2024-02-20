@@ -20,16 +20,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="ACWing 5470 2024年2月17日">
-      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/821.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/92.cpp" afterDir="false" />
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="ACWing DFS 2024年2月20日">
+      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/1491.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/acwing/842.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/acwing/842.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" afterDir="false" />
@@ -132,7 +128,7 @@
       <workItem from="1707117191666" duration="7436000" />
       <workItem from="1708074287456" duration="2591000" />
       <workItem from="1708169559219" duration="1435000" />
-      <workItem from="1708395530828" duration="4856000" />
+      <workItem from="1708395530828" duration="8098000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -214,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708184925065</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ACWing DFS 2024年2月20日">
+      <option name="closed" value="true" />
+      <created>1708400557654</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708400557654</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +263,8 @@
     <MESSAGE value="Algorithm TrieTree cpp ver." />
     <MESSAGE value="ACWing 789 2024年2月16日" />
     <MESSAGE value="ACWing 5470 2024年2月17日" />
-    <option name="LAST_COMMIT_MESSAGE" value="ACWing 5470 2024年2月17日" />
+    <MESSAGE value="ACWing DFS 2024年2月20日" />
+    <option name="LAST_COMMIT_MESSAGE" value="ACWing DFS 2024年2月20日" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
