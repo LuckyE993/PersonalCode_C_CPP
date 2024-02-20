@@ -21,11 +21,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="ACWing DFS 2024年2月20日">
-      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/1491.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/luogu/P1706.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/luogu/p1036.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/luogu/p1157.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" afterDir="false" />
@@ -128,7 +132,7 @@
       <workItem from="1707117191666" duration="7436000" />
       <workItem from="1708074287456" duration="2591000" />
       <workItem from="1708169559219" duration="1435000" />
-      <workItem from="1708395530828" duration="8098000" />
+      <workItem from="1708395530828" duration="11293000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -218,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708400557654</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ACWing DFS 2024年2月20日">
+      <option name="closed" value="true" />
+      <created>1708433695542</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708433695542</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
