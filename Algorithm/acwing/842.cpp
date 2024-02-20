@@ -10,7 +10,7 @@ int n;
 bool state[MAX_NUM+1];
 int path[MAX_NUM+1];
 
-void DFS(int number)
+void DFS_1(int number)
 {
     /*输出*/
     if(number>n)
@@ -28,15 +28,16 @@ void DFS(int number)
         {
             path[number]=i;
             state[i] = 1;
-            DFS(number+1);
+            DFS_1(number+1);
             state[i] = 0;
         }
     }
 }
 
+
 int main()
 {
     cin >> n;
-    DFS(1);
+    DFS_1(1);
     return 0;
 }
