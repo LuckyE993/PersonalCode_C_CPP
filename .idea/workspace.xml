@@ -20,15 +20,27 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="luogu DFS 2024年2月20日">
-      <change afterPath="$PROJECT_DIR$/Algorithm/luogu/P2089.cpp" afterDir="false" />
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="luogu DFS 2024年2月21日">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/503.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/730.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/luogu/P1088.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/exam/EP1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/exam/EP2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/exam/EP3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/exam/EP4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/exam/work1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/exam/work2.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +86,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -129,7 +142,14 @@
       <workItem from="1708074287456" duration="2591000" />
       <workItem from="1708169559219" duration="1435000" />
       <workItem from="1708395530828" duration="12271000" />
-      <workItem from="1708510001860" duration="1488000" />
+      <workItem from="1708510001860" duration="3781000" />
+      <workItem from="1708595276931" duration="2951000" />
+      <workItem from="1708998265485" duration="1032000" />
+      <workItem from="1709113312223" duration="624000" />
+      <workItem from="1709808562027" duration="2000" />
+      <workItem from="1709898475595" duration="3040000" />
+      <workItem from="1709980859991" duration="889000" />
+      <workItem from="1710230343197" duration="1030000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -235,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708445951110</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="luogu DFS 2024年2月21日">
+      <option name="closed" value="true" />
+      <created>1708511976312</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708511976312</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,16 +310,12 @@
     <MESSAGE value="ACWing 5470 2024年2月17日" />
     <MESSAGE value="ACWing DFS 2024年2月20日" />
     <MESSAGE value="luogu DFS 2024年2月20日" />
-    <option name="LAST_COMMIT_MESSAGE" value="luogu DFS 2024年2月20日" />
+    <MESSAGE value="luogu DFS 2024年2月21日" />
+    <option name="LAST_COMMIT_MESSAGE" value="luogu DFS 2024年2月21日" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Algorithm/luogu/P2089.cpp</url>
-          <line>40</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Algorithm/luogu/P2089.cpp</url>
           <line>11</line>
