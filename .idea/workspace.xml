@@ -20,27 +20,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="luogu DFS 2024年2月21日">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/503.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/730.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/luogu/P1088.cpp" afterDir="false" />
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="Data Structure Work">
+      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/1223.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/exam/EP1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/exam/EP2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/exam/EP3.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/exam/EP4.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/exam/work1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/exam/work2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +139,7 @@
       <workItem from="1709808562027" duration="2000" />
       <workItem from="1709898475595" duration="3040000" />
       <workItem from="1709980859991" duration="889000" />
-      <workItem from="1710230343197" duration="1030000" />
+      <workItem from="1710230343197" duration="2500000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -263,7 +253,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708511976312</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ACWing 730 贪心 2024年3月12日">
+      <option name="closed" value="true" />
+      <created>1710231627396</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710231627396</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Data Structure Work">
+      <option name="closed" value="true" />
+      <created>1710231673319</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710231673319</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +317,9 @@
     <MESSAGE value="ACWing DFS 2024年2月20日" />
     <MESSAGE value="luogu DFS 2024年2月20日" />
     <MESSAGE value="luogu DFS 2024年2月21日" />
-    <option name="LAST_COMMIT_MESSAGE" value="luogu DFS 2024年2月21日" />
+    <MESSAGE value="ACWing 730 贪心 2024年3月12日" />
+    <MESSAGE value="Data Structure Work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Structure Work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
