@@ -20,7 +20,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="ACWing 模拟哈希 2024年3月12日" />
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="ACWing 模拟哈希 2024年3月12日">
+      <change afterPath="$PROJECT_DIR$/Algorithm/CLASS/course/BinarySearch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/acwing/789.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/acwing/789.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,13 +91,13 @@
   }
 }</component>
   <component name="RunManager" selected="CMake Application.cpp">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="cpp" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
     </configuration>
     <configuration name="cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="cpp">
       <method v="2">
@@ -128,7 +139,8 @@
       <workItem from="1709808562027" duration="2000" />
       <workItem from="1709898475595" duration="3040000" />
       <workItem from="1709980859991" duration="889000" />
-      <workItem from="1710230343197" duration="3499000" />
+      <workItem from="1710230343197" duration="4152000" />
+      <workItem from="1710471231479" duration="1951000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -266,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710233760594</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ACWing 模拟哈希 2024年3月12日">
+      <option name="closed" value="true" />
+      <created>1710245029278</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710245029278</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,14 +347,17 @@
           <line>11</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithm/CLASS/course/BinarySearch.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="arr" />
-        <watch expression="ans" />
-        <watch expression="res" />
         <watch expression="n" />
+        <watch expression="a[mid]" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
