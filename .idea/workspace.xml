@@ -20,14 +20,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="ACWing 模拟哈希 2024年3月12日">
-      <change afterPath="$PROJECT_DIR$/Algorithm/CLASS/course/BinarySearch.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="ACWing 2024年3月15日 二分 789.数的范围">
+      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/1227.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/790.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/acwing/789.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/acwing/789.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" afterDir="false" />
@@ -86,18 +90,13 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;通义灵码&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="CMake Application.cpp">
     <configuration name="cpp" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
     </configuration>
     <configuration name="cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cpp" TARGET_NAME="cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cpp" RUN_TARGET_NAME="cpp">
       <method v="2">
@@ -140,7 +139,10 @@
       <workItem from="1709898475595" duration="3040000" />
       <workItem from="1709980859991" duration="889000" />
       <workItem from="1710230343197" duration="4152000" />
-      <workItem from="1710471231479" duration="1951000" />
+      <workItem from="1710471231479" duration="3883000" />
+      <workItem from="1710657379507" duration="1330000" />
+      <workItem from="1711199479255" duration="184000" />
+      <workItem from="1711199678355" duration="5176000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -286,7 +288,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710245029278</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Algorithm 2024年3月15日 Binary New Method">
+      <option name="closed" value="true" />
+      <created>1710473334932</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710473334932</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ACWing 2024年3月15日 二分 789.数的范围">
+      <option name="closed" value="true" />
+      <created>1710473372166</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710473372166</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +355,9 @@
     <MESSAGE value="ACWing 730 贪心 2024年3月12日" />
     <MESSAGE value="Data Structure Work" />
     <MESSAGE value="ACWing 模拟哈希 2024年3月12日" />
-    <option name="LAST_COMMIT_MESSAGE" value="ACWing 模拟哈希 2024年3月12日" />
+    <MESSAGE value="Algorithm 2024年3月15日 Binary New Method" />
+    <MESSAGE value="ACWing 2024年3月15日 二分 789.数的范围" />
+    <option name="LAST_COMMIT_MESSAGE" value="ACWing 2024年3月15日 二分 789.数的范围" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -348,16 +368,19 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Algorithm/CLASS/course/BinarySearch.cpp</url>
-          <line>18</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/Algorithm/acwing/1227.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="n" />
-        <watch expression="a[mid]" language="ObjectiveC" />
+        <watch expression="w" />
+        <watch expression="h" />
+        <watch expression="h" />
+        <watch expression="k" />
       </configuration>
     </watches-manager>
   </component>

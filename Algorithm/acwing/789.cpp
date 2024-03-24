@@ -61,6 +61,7 @@ int solution2_right(int x)
 	else
 		return l;
 }
+
 int main()
 {
 	scanf("%d %d",&n,&q);
