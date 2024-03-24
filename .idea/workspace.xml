@@ -20,13 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="ACWing 2024年3月15日 二分 789.数的范围">
-      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/1227.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/790.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="ACWing 2024年3月24日 二分 1227. 分巧克力">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/acwing/789.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/acwing/789.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/acwing/795.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/acwing/795.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" afterDir="false" />
@@ -95,6 +92,11 @@
   }
 }</component>
   <component name="RunManager" selected="CMake Application.cpp">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cpp" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -142,7 +144,7 @@
       <workItem from="1710471231479" duration="3883000" />
       <workItem from="1710657379507" duration="1330000" />
       <workItem from="1711199479255" duration="184000" />
-      <workItem from="1711199678355" duration="5176000" />
+      <workItem from="1711199678355" duration="5533000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -304,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710473372166</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ACWing 2024年3月24日 二分 1227. 分巧克力">
+      <option name="closed" value="true" />
+      <created>1711248950371</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711248950371</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +367,8 @@
     <MESSAGE value="ACWing 模拟哈希 2024年3月12日" />
     <MESSAGE value="Algorithm 2024年3月15日 Binary New Method" />
     <MESSAGE value="ACWing 2024年3月15日 二分 789.数的范围" />
-    <option name="LAST_COMMIT_MESSAGE" value="ACWing 2024年3月15日 二分 789.数的范围" />
+    <MESSAGE value="ACWing 2024年3月24日 二分 1227. 分巧克力" />
+    <option name="LAST_COMMIT_MESSAGE" value="ACWing 2024年3月24日 二分 1227. 分巧克力" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

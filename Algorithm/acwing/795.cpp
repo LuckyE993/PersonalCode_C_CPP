@@ -1,24 +1,22 @@
-#include "iostream"
+#include "stdio.h"
 using namespace std;
-int array[1000010];
-int b[1000010];
-int main(int argc, char* argv[])
+const int N = 100010;
+int a[N];
+int b[N];
+int n,m;
+int main()
 {
-    int n,m;
-    int l,r;
-    cin >> n ;
-    cin>>m;
-    for(int i=1;i<=n;i++)
-    {
-        cin>>array[i];
-        b[i] = b[i-1]+array[i];
-    }
-
-    while(m--)
-    {
-        cin>>l>>r;
-        cout<<b[r]-b[l-1]<<endl;
-    }
-    return 0;
+	scanf("%d %d ",&n,&m);
+	for(int i = 1;i <= n;i++)
+	{
+		scanf("%d",&a[i]);
+		b[i]=a[i]+b[i-1];
+	}
+	while(m--)
+	{
+		int l,r;
+		scanf("%d %d",&l,&r);
+		printf("%d\n",b[r]-b[l-1]);
+	}
 }
 
