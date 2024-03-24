@@ -16,7 +16,7 @@ int main()
 	while(q--)
 	{
 		int x1,x2,y1,y2;
-		scanf("%d %d %d %d ",&x1,&y1,&x2,&y2);
+		scanf("%d %d %d %d",&x1,&y1,&x2,&y2);
 		printf("%d \n",s[x2][y2]-s[x1-1][y2]-s[x2][y1-1]+s[x1-1][y1-1]);
 	}
 	return 0;
