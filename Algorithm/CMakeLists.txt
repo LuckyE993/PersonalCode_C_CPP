@@ -3,4 +3,4 @@ project(cpp)
 set(CMAKE_CXX_STANDARD 17)
 add_executable(cpp
 
-        acwing/1211.cpp)
+        acwing/1216.cpp)
