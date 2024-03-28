@@ -1,10 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+
 int main()
 {
 	int ans = 0;
 	int n;
+
 	scanf("%d",&n);
 	int temp = n;
 	while(n>=3)
