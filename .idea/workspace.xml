@@ -20,8 +20,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="ACWing  2024年4月2日 BFS 844. 走迷宫">
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="Luogu  2024年4月2日 EZ P1427 小鱼的数字游戏">
+      <change afterPath="$PROJECT_DIR$/Algorithm/luogu/P2141.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +166,7 @@
       <workItem from="1711794902733" duration="1055000" />
       <workItem from="1711881913618" duration="1311000" />
       <workItem from="1712045071696" duration="933000" />
-      <workItem from="1712046013213" duration="1685000" />
+      <workItem from="1712046013213" duration="5904000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -409,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712047491767</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Luogu  2024年4月2日 EZ P1427 小鱼的数字游戏">
+      <option name="closed" value="true" />
+      <created>1712047919267</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1712047919267</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Normal Update" />
     <MESSAGE value="QuickSort.cpp" />
     <MESSAGE value="Algorithm KMP" />
     <MESSAGE value="Index Update" />
@@ -469,7 +483,8 @@
     <MESSAGE value="ACWing 2024年3月27日 数论 1211. 蚂蚁感冒" />
     <MESSAGE value="ACWing 2024年3月27日 数论 1216. 饮料换购" />
     <MESSAGE value="ACWing  2024年4月2日 BFS 844. 走迷宫" />
-    <option name="LAST_COMMIT_MESSAGE" value="ACWing  2024年4月2日 BFS 844. 走迷宫" />
+    <MESSAGE value="Luogu  2024年4月2日 EZ P1427 小鱼的数字游戏" />
+    <option name="LAST_COMMIT_MESSAGE" value="Luogu  2024年4月2日 EZ P1427 小鱼的数字游戏" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -484,9 +499,10 @@
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="n" />
-        <watch expression="g" language="ObjectiveC" />
-        <watch expression="dist" />
-        <watch expression="q" />
+        <watch expression="ans" />
+        <watch expression="a" />
+        <watch expression="sum" />
+        <watch expression="st" />
       </configuration>
     </watches-manager>
   </component>
