@@ -1,6 +1,79 @@
 ﻿//
 // Created by Lucky_E on 2023-07-23.
+// Add new solution by Lucky_E on 2024-04-02.
 //
+//Solution1 Solution2
+#define Solution1
+
+#ifdef Solution1
+#include <cstring>
+#include <bits/stdc++.h>
+#include <algorithm>
+#include <queue>
+
+
+using namespace std;
+typedef pair<int,int> PII;
+queue<PII> q;
+
+const int N = 110;
+int g[N][N];
+int dist[N][N];
+int n,m;
+int dx[]={-1,0,1,0};
+int dy[]={0,1,0,-1};
+
+void bfs(int x1,int y1)
+{
+	q.push({x1,y1});
+	dist[x1][y1] = 0;
+
+	while(q.size())
+	{
+		auto t = q.front();
+		q.pop();
+		for(int i=0;i<4;i++)
+		{
+			int a=t.first+dx[i],b=t.second+dy[i];
+			if(a<1||a>n||b<1||b>m)continue;
+			if(dist[a][b]>0)continue;
+			if(g[a][b])continue;
+
+			dist[a][b] = dist[t.first][t.second] + 1;
+			q.push({a,b});
+
+			if(a==n&&b==m)
+			{
+				printf("%d\n",dist[n][m]);
+				return;
+			}
+
+		}
+
+
+	}
+	printf("%d\n",dist[n][m]);
+}
+
+int main()
+{
+	memset(dist,-1,sizeof dist);//memset must in a function.
+	scanf("%d %d",&n,&m);
+
+	for(int i=1;i<=n;i++)
+	{
+		for(int j=1;j<=m;j++)
+		{
+			scanf("%d",&g[i][j]);
+		}
+	}
+
+	bfs(1,1);
+	return 0;
+}
+#endif
+
+#ifdef Solution2
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -64,3 +137,5 @@ int main()
 
     return 0;
 }
+
+#endif
