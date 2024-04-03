@@ -20,8 +20,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="Luogu  2024年4月2日 EZ P1427 小鱼的数字游戏">
-      <change afterPath="$PROJECT_DIR$/Algorithm/luogu/P2141.cpp" afterDir="false" />
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="Luogu  2024年4月2日 EZ P2141 [NOIP2014 普及组] 珠心算测验">
+      <change afterPath="$PROJECT_DIR$/Algorithm/luogu/P2615.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" afterDir="false" />
@@ -166,7 +166,7 @@
       <workItem from="1711794902733" duration="1055000" />
       <workItem from="1711881913618" duration="1311000" />
       <workItem from="1712045071696" duration="933000" />
-      <workItem from="1712046013213" duration="5904000" />
+      <workItem from="1712046013213" duration="9550000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -424,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712047919267</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Luogu  2024年4月2日 EZ P2141 [NOIP2014 普及组] 珠心算测验">
+      <option name="closed" value="true" />
+      <created>1712065346591</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1712065346591</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +467,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="QuickSort.cpp" />
     <MESSAGE value="Algorithm KMP" />
     <MESSAGE value="Index Update" />
     <MESSAGE value="Algorithm TrieTree" />
@@ -484,7 +491,8 @@
     <MESSAGE value="ACWing 2024年3月27日 数论 1216. 饮料换购" />
     <MESSAGE value="ACWing  2024年4月2日 BFS 844. 走迷宫" />
     <MESSAGE value="Luogu  2024年4月2日 EZ P1427 小鱼的数字游戏" />
-    <option name="LAST_COMMIT_MESSAGE" value="Luogu  2024年4月2日 EZ P1427 小鱼的数字游戏" />
+    <MESSAGE value="Luogu  2024年4月2日 EZ P2141 [NOIP2014 普及组] 珠心算测验" />
+    <option name="LAST_COMMIT_MESSAGE" value="Luogu  2024年4月2日 EZ P2141 [NOIP2014 普及组] 珠心算测验" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -494,15 +502,19 @@
           <line>11</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithm/luogu/P2615.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="n" />
         <watch expression="ans" />
-        <watch expression="a" />
-        <watch expression="sum" />
         <watch expression="st" />
+        <watch expression="i" />
       </configuration>
     </watches-manager>
   </component>
