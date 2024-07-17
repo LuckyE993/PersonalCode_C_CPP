@@ -20,15 +20,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="Luogu  2024年4月2日 模拟 P2615 [NOIP2015 提高组] 神奇的幻方">
-      <change afterPath="$PROJECT_DIR$/Algorithm/lanqiao/9Noob/T3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/lanqiao/9Noob/T4.cpp" afterDir="false" />
+    <list default="true" id="803260f3-c56b-4a36-8ffa-ca4ac336aeec" name="Changes" comment="ACWing  2024年4月12日 92. 递归实现指数型枚举">
+      <change afterPath="$PROJECT_DIR$/Algorithm/QuickReview.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/acwing/4957.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/cmake-build-debug/cpp.exe" afterDir="false" />
@@ -62,6 +61,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Algorithm/acwing/844.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2023" />
@@ -75,29 +77,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;CMake Application.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LuckyE/OneDrive/文档/复习资料/SoftwareEngineering&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.cpp.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/File/PersonalCode_C_CPP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\File\PersonalCode_C_CPP\Algorithm\acwing" />
+    </key>
+  </component>
   <component name="RunManager" selected="CMake Application.cpp">
     <configuration name="cpp" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
@@ -108,8 +115,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Debug.cpp" />
       <item itemvalue="CMake Application.cpp" />
+      <item itemvalue="CMake Debug.cpp" />
     </list>
     <recent_temporary>
       <list>
@@ -169,7 +176,18 @@
       <workItem from="1712405706704" duration="186000" />
       <workItem from="1712405905514" duration="1521000" />
       <workItem from="1712479762246" duration="832000" />
-      <workItem from="1712632672821" duration="1000" />
+      <workItem from="1712632672821" duration="3681000" />
+      <workItem from="1712648156830" duration="777000" />
+      <workItem from="1712667145663" duration="292000" />
+      <workItem from="1712667447672" duration="153000" />
+      <workItem from="1712670778922" duration="226000" />
+      <workItem from="1712773834345" duration="4813000" />
+      <workItem from="1712830966148" duration="208000" />
+      <workItem from="1712831180440" duration="6953000" />
+      <workItem from="1712881331957" duration="6828000" />
+      <workItem from="1712923144880" duration="2147000" />
+      <workItem from="1714354376058" duration="8000" />
+      <workItem from="1721222797998" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="Normal Update">
       <option name="closed" value="true" />
@@ -443,7 +461,63 @@
       <option name="project" value="LOCAL" />
       <updated>1712109889240</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="2024年4月6日 算法双周赛 第九场">
+      <option name="closed" value="true" />
+      <created>1712632734967</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1712632734967</updated>
+    </task>
+    <task id="LOCAL-00036" summary="ACWing  2024年4月9日 模拟 1210. 连号区间数">
+      <option name="closed" value="true" />
+      <created>1712633282131</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1712633282131</updated>
+    </task>
+    <task id="LOCAL-00037" summary="ACWing  2024年4月9日 DFS 记忆化搜索 DP 821.跳台阶">
+      <option name="closed" value="true" />
+      <created>1712635153035</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1712635153035</updated>
+    </task>
+    <task id="LOCAL-00038" summary="ACWing  2024年4月11日 模拟 4402. 刷题统计">
+      <option name="closed" value="true" />
+      <created>1712775429102</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1712775429102</updated>
+    </task>
+    <task id="LOCAL-00039" summary="ACWing  2024年4月11日 模拟 4403. 修剪灌木">
+      <option name="closed" value="true" />
+      <created>1712786118397</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1712786118397</updated>
+    </task>
+    <task id="LOCAL-00040" summary="ACWing  2024年4月11日 模拟 4956. 冶炼金属">
+      <option name="closed" value="true" />
+      <created>1712831737059</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1712831737059</updated>
+    </task>
+    <task id="LOCAL-00041" summary="ACWing  2024年4月12日 92. 递归实现指数型枚举">
+      <option name="closed" value="true" />
+      <created>1712929250606</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1712929250607</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,13 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Index Update" />
-    <MESSAGE value="Algorithm TrieTree" />
-    <MESSAGE value="Algorithm TrieTree cpp ver." />
-    <MESSAGE value="ACWing 789 2024年2月16日" />
-    <MESSAGE value="ACWing 5470 2024年2月17日" />
-    <MESSAGE value="ACWing DFS 2024年2月20日" />
-    <MESSAGE value="luogu DFS 2024年2月20日" />
     <MESSAGE value="luogu DFS 2024年2月21日" />
     <MESSAGE value="ACWing 730 贪心 2024年3月12日" />
     <MESSAGE value="Data Structure Work" />
@@ -503,7 +570,14 @@
     <MESSAGE value="Luogu  2024年4月2日 EZ P1427 小鱼的数字游戏" />
     <MESSAGE value="Luogu  2024年4月2日 EZ P2141 [NOIP2014 普及组] 珠心算测验" />
     <MESSAGE value="Luogu  2024年4月2日 模拟 P2615 [NOIP2015 提高组] 神奇的幻方" />
-    <option name="LAST_COMMIT_MESSAGE" value="Luogu  2024年4月2日 模拟 P2615 [NOIP2015 提高组] 神奇的幻方" />
+    <MESSAGE value="2024年4月6日 算法双周赛 第九场" />
+    <MESSAGE value="ACWing  2024年4月9日 模拟 1210. 连号区间数" />
+    <MESSAGE value="ACWing  2024年4月9日 DFS 记忆化搜索 DP 821.跳台阶" />
+    <MESSAGE value="ACWing  2024年4月11日 模拟 4402. 刷题统计" />
+    <MESSAGE value="ACWing  2024年4月11日 模拟 4403. 修剪灌木" />
+    <MESSAGE value="ACWing  2024年4月11日 模拟 4956. 冶炼金属" />
+    <MESSAGE value="ACWing  2024年4月12日 92. 递归实现指数型枚举" />
+    <option name="LAST_COMMIT_MESSAGE" value="ACWing  2024年4月12日 92. 递归实现指数型枚举" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -513,13 +587,22 @@
           <line>11</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithm/acwing/4402.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Algorithm/acwing/4402.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="n" />
-        <watch expression="c" language="ObjectiveC" />
-        <watch expression="arr" />
+        <watch expression="a" />
+        <watch expression="maxN" />
       </configuration>
     </watches-manager>
   </component>
