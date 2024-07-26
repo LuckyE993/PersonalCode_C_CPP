@@ -1,3 +1,7 @@
 /build/
 /Algorithm/cmake-build-debug/
 /Algorithm/cmake-build-debug/*
+/.vscode/
+/Algorithm/cmake-build-debug/
+/C_Primer_Plus_Learn/cmake-build-debug/
+.idea
