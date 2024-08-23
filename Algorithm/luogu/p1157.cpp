@@ -3,35 +3,39 @@
 //
 #include "iostream"
 #include <cstdio>
+#include "iomanip"
 using namespace std;
-const int N=1e5+10;
-int st[N];
-int arr[30];
-int range,n;
+const int N = 1e5 + 10;
+int out[N];
+int n, r;
 
-void dfs(int x,int start)
+void dfs(int pos, int start)
 {
-
-	if(x>range)
+	if (pos > r)
 	{
-		for(int i=1;i<=range;i++)
+		for (int i = 1; i <= r; ++i)
 		{
-			printf("%3d",arr[i]);
+			cout<<setw(3)<<out[i];
 		}
-		printf("\n");
+		cout<<endl;
 		return;
 	}
+
 	for(int i=start;i<=n;i++)
 	{
-		arr[x] = i;
-		dfs(x+1,i+1);
-		arr[x] = 0;
+		out[pos] = i;
+		dfs(pos+1,i+1);
+		out[pos] = 0;
 	}
+
+
+
 }
 
 int main()
 {
-	scanf("%d %d",&n,&range);
-	dfs(1,1);
+
+	cin >> n >> r;
+	dfs(1, 1);
 	return 0;
 }
