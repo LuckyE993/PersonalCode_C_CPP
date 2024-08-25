@@ -5,6 +5,6 @@ project(Luogu)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Luogu
-        p1157.cpp
+        P1451.cpp
 )
 

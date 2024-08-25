@@ -1,56 +1,64 @@
-#include <iostream>
-using namespace std;
-const int N =1e5+10;
-int arr[12];
-int n,res;
-int ans[60000][12];
 
-void dfs(int x,int sum)
+#include "iostream"
+
+using namespace std;
+const int N = 1e6 + 10;
+int n_max;
+int ans[11];
+int index;
+int out[N][11];
+
+void dfs(int pos, int now_sum)
 {
-	if(sum>n)
-		return;
-	if(x>10)
+	if (now_sum > n_max)
 	{
-		if(sum==n)
+		return;
+	}
+	if (pos > 10)
+	{
+		if (now_sum == n_max)
 		{
-			res++;
-			for(int i=1;i<=10;i++)
+			index++;
+			for (int pos_copy = 1; pos_copy <= 10; pos_copy++)
 			{
-				ans[res][i] = arr[i];
+				out[index][pos_copy] = ans[pos_copy];
 			}
+
 		}
 		return;
 	}
 
-	for(int i=1;i<=3;i++)
+	for (int i = 1; i <= 3; i++)
 	{
-		arr[x] = i;
-		dfs(x+1,sum + i);
-		arr[x] = 0;
+		ans[pos] = i;
+		dfs(pos + 1, now_sum + i);
+		ans[pos] = 0;
 	}
+
 }
+
 int main()
 {
-	scanf("%d",&n);
-	if(n>30||n<10)
+	cin >> n_max;
+	dfs(1, 0);
+
+	if (n_max>30||n_max<10)
 	{
-		printf("0");
+		cout << "0" << endl;
 		return 0;
 	}
 
-	dfs(1,0);
+	cout << index << endl;
 
-	printf("%d\n",res);
-	for(int i=1;i<=res;i++)
+	for (int index_out = 1; index_out <= index; index_out++)
 	{
-		for(int j=1;j<=10;j++)
-			printf("%d ",ans[i][j]);
-		printf("\n");
+		for (int i = 1; i <= 10; i++)
+			cout << out[index_out][i] << " ";
+		if(index_out!=index)
+			cout << endl;
 	}
 	return 0;
 }
-
-
 
 
 
